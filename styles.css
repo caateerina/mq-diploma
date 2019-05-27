@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	margin: 0px; border: 1px solid red;
+}
+.header { border: 1px solid green;
+  display: flex;  
+  width: 1920px;
+  height: 960px;
+  max-width: 1920px;
+  max-height: 960px;
+  margin: auto;
+  background-image: url("images/football_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}

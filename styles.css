@@ -1,15 +1,108 @@
 * {
-  box-sizing: border-box;
-}
-body {
-  margin: 0px; border: 1px solid red;
-}
-.header {
-  display: flex;  
-  width: 1920px;
-  height: 960px;
-  max-width: 1920px;
-  max-height: 960px;
-  margin: auto;
-  background-color: #0a0e34;
-}
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%; 
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fffffff;
+  }
+
+  h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+  }
+
+/*_____________Top_____________*/
+
+  .top_container { 
+    display: flex; 
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+    min-height: 100vh;
+    max-height: 96.1em;
+    background-color: #0a0e34;
+    background-image: url("images/header_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+  .logo_header {
+    width: 100%;
+  }
+
+  .text_header {
+    width: 100%;
+  }
+
+.text_header { 
+    width: 100%;
+  }
+
+.text_header h1, .text_header h2 { 
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .buttons_header a {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 22.5em;
+    height: 5.7em;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10em;
+    background-color: #5e42b0; 
+    padding: 30px 25px 30px 110px;
+  }
+
+  .buttons_header span {
+    font-weight: 700;
+  }
+
+  .buttons_header p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .download_appstore_button {
+    margin-right: 3.57em;
+  }
+
+  .download_appstore_button::before  {
+    content: "";
+    position: absolute;
+    width: 42px;
+    height: 48px;
+    left: 45px;
+    background: url("https://github.com/caateerina/mq-diploma/blob/master/icons/apple_logo.svg") no-repeat 0 0;
+  }
+
+  .download_appstore_button::before  {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 42px;
+    left: 45px;
+    background: url("https://github.com/caateerina/mq-diploma/blob/master/icons/google_play.svg") no-repeat 0 0;
+  }
+
+

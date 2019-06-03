@@ -534,7 +534,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /*-----------------------------------------tablet*/
-
+@media (min-width: 641px) and (max-width: 960px) {
 .header {
     background-image: url('../images/header_768.jpg');
 	background-size: cover;

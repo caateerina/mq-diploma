@@ -79,10 +79,10 @@ img {
 }
 
 .button {
-    display: flex;
+	display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
+	position: relative;
     font-size: 14px;
     border-radius: 35px;
     background-color: #5e42b0;
@@ -94,11 +94,11 @@ img {
    
 }
 
-.button strong {
+.button span{
     font-weight: 700;
 }
 
-.button span {
+.button p {
     display: flex;
     align-items: flex-start;
     justify-content: center;

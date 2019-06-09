@@ -153,7 +153,7 @@ img {
     font-weight: 700;
     font-size: 8rem;
     color: #e7e7e7;
-    font-size: 50px; 
+    font-size: 80px; 
 }
 
 .number_box {
@@ -170,7 +170,9 @@ img {
 }
 
 .big_block_activity {
-    color: #e6e6e6;
+     color: #c1c1c1;
+     font-size: 80px;
+     opacity: 0.4;
 }
 
 .middle_block {
@@ -230,7 +232,7 @@ img {
 }
 
 .activity_container,
-.motiv_text_block {
+.activity_text_block {
     flex-basis: 50%;
     font-size: 0;
 }
@@ -385,7 +387,7 @@ img {
         margin-top: 11.25px;
     }
 
-    .motiv_text_block .big_block{
+    .activity_text_block .big_block{
         margin-top: 27.5px;
         margin-bottom: 16px;
     }
@@ -407,7 +409,7 @@ img {
     
     .activity_img,
     .activity_img img,
-    .motiv_text_block {
+    .activity_text_block {
         width: 100%;
     }
 
@@ -496,7 +498,7 @@ img {
     
     .activity_img,
     .activity_img img,
-    .motiv_text_block {
+    .activity_text_block {
         width: 100%;
     }
 
@@ -512,13 +514,13 @@ img {
         margin-left: 4%;
     }
 
-    .motiv_text_block .big_block {
+    .activity_text_block .big_block {
         line-height: 1;
         margin-top: 86px;
         margin-bottom: 16px;
     }
 
-    .motiv_text_block .text_block {
+    .activity_text_block .text_block {
         max-width: 85.9%;
         margin-bottom: 86px;
     }
@@ -680,13 +682,13 @@ img {
         margin-left: 20%;
     }
 
-    .motiv_text_block .big_block {
+    .activity_text_block .big_block {
         margin-top: 25%;
         margin-bottom: 10%;
         margin-left: 130px;
     }
 
-    .motiv_text_block .text_block {
+    .activity_text_block .text_block {
         margin-left: 130px;
         font-size: 2.4rem;
         max-width: 538px;

@@ -94,11 +94,11 @@ img {
    
 }
 
-.button span{
+.button strong {
     font-weight: 700;
 }
 
-.button p {
+.button span {
     display: flex;
     align-items: flex-start;
     justify-content: center;

@@ -66,10 +66,11 @@ img {
 }
 
 .logotype_text_container {
-    width: 100%;
+    width: 100%; 
+	
 }
 
-.header_logo_text {
+.header_logo_text { 
     font-weight: 700;
     display: block;
 }
@@ -105,6 +106,10 @@ img {
     flex-direction: column;
 }
 
+.button_google span {
+   padding-left: 20px;
+}
+
 .button_apple {
     margin-right: 50px;
 }
@@ -112,10 +117,10 @@ img {
 .button_apple::before {
     content: "";
     position: absolute;
-    top: 20%;
-    width: 44px;
-    height: 48px;
-    left: 45px;
+    top: 16%;
+    width: 47px;
+    height: 50px;
+    left: 35px;
     background: url("../icons/apple_logo.svg") no-repeat 0 0;
 }
 
@@ -123,10 +128,11 @@ img {
     content: "";
 	position: absolute;
     top: 22%;
-    width: 40px;
+    width: 45px;
     height: 50px;
-    left: 45px;
+    left: 55px;
     background: url("../icons/google_play.svg") no-repeat 0 0;
+
 }
 
 /*---------athlets*/
@@ -613,16 +619,25 @@ img {
 
     .header_logo_text {
         font-size: 9rem;
+		font-weight: 700;
+		letter-spacing: 2px;
     }
 
     .header_logo_text_1 {
-        margin-left: 9.4%;
+        padding-left: 9.4%;
+		padding-top: 9%;
     }
     
     .header_logo_text-2 {
-        margin-left: 30%;
+        padding-left: 33.33%;
+		padding-bottom: 6%;
     }
-
+	
+	.buttons_header {
+		padding-bottom: 10px;
+		
+	}
+	
     .players_box,
     .players_header {
         padding-left: 15%;

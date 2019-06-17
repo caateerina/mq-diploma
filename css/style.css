@@ -21,7 +21,7 @@
 }
 
 html {
-    font-size: 62.5%; 
+    font-size: 14px; 
     line-height: 1.25;
 }
   
@@ -53,12 +53,16 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-	
-    width: 100%;
-    min-height: 100vh;
+	width: 100%;
+    min-height: 960px;
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
+	background-image: url('../images/header_1920.png');
+	padding-top: 45px;
+	padding-bottom: 110px;
+	background-color: #0a0e34;
+	
 }
 
 .header_logo_box {
@@ -67,12 +71,12 @@ img {
 
 .logotype_text_container {
     width: 100%; 
-	
-}
-
-.header_logo_text { 
-    font-weight: 700;
-    display: block;
+	max-width: 81.5%;
+	line-height: 1;
+    font-size: 4.5rem;
+	font-weight: 700;
+	position: relative;
+    top: 35px;
 }
 
 .buttons_header {
@@ -147,8 +151,9 @@ img {
 }
 
 .athlets_img {
-    left: 15%;
-	top: -5%;
+    left: 21%;
+    top: -5.8%;
+	width: 560px;
 }
 
 .players_img {
@@ -308,7 +313,7 @@ img {
     }
     
     .header_logo_text {
-        font-size: 2.8rem;
+       
     }
 
     .logotype_text_container {
@@ -475,14 +480,11 @@ img {
 
 @media (min-width: 641px) and (max-width: 960px) {
     .header {
-        background-image: url('../images/header_768.jpg');
-		background-size: cover;
-        padding-top: 40px;
-        padding-bottom: 90px;
+        
     }
 
     .header_logo_text {
-        font-size: 6.4rem;
+        
     }
 
     .header_logo_box {
@@ -494,7 +496,7 @@ img {
     }
 
     .header_logo_text-2 {
-        margin-left: 25%;
+        
     }
 
     .activity_block {
@@ -610,31 +612,24 @@ img {
 /*---------desktop*/
 
 @media (min-width: 961px) {
+	
     .header {
-        background-image: url('../images/header_1920.png');
-        padding-top: 45px;
-        padding-bottom: 110px;
-		background-color: #0a0e34;
+        
     }
 
     .header_logo_text {
-        font-size: 9rem;
-		font-weight: 700;
-		letter-spacing: 2px;
     }
 
     .header_logo_text_1 {
-        padding-left: 9.4%;
-		padding-top: 9%;
+        
     }
     
     .header_logo_text-2 {
-        padding-left: 33.33%;
-		padding-bottom: 6%;
+       text-align: right; 
     }
 	
 	.buttons_header {
-		padding-bottom: 10px;
+		
 		
 	}
 	
@@ -671,7 +666,7 @@ img {
     }
 
     .text_block {
-        font-size: 2rem;
+        font-size: 1.4286rem;
         padding-bottom: 6.94%;
     }
 
@@ -739,4 +734,9 @@ img {
     .footer_text {
         font-size: 3rem;
     }
+}
+@media (min-width: 1281px) {
+	html {
+		font-size: 20px;
+	}
 }

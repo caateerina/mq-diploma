@@ -73,7 +73,7 @@ img {
     width: 100%; 
 	max-width: 81.5%;
 	line-height: 1;
-    font-size: 4.5rem;
+    font-size: 6.4286rem;
 	font-weight: 700;
 	position: relative;
     top: 35px;
@@ -141,8 +141,34 @@ img {
 
 /*---------athlets*/
 
+.athlets_header_wrap {
+	max-width: 1520px;
+	margin: auto;
+}
+
+.athlets_block_wrap {
+	max-width: 1320px;
+	margin: auto;
+}
+
+.athlets_block_atom {
+	max-width: 620px;
+	margin-left: auto;
+}
+
+.players_block_wrap {
+	max-width: 1550px;
+	margin: auto;
+}
+
+.players_block_atom {
+	max-width: 620px;
+	margin-right: auto;
+}
+
 .athlets, .players {
     position: relative;
+	min-height: 760px;
 }
 
 .athlets_img, .players_img {
@@ -156,10 +182,6 @@ img {
 	width: 560px;
 }
 
-.players_img {
-	left: 50%;
-}
-
 .big_block {
     font-weight: 700;
     font-size: 8rem;
@@ -170,7 +192,7 @@ img {
 .number_box {
 	display: inline-block;
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.2857rem;
     border-bottom: 4px solid #5e42b0;
     width: 20px;
     text-align: center;
@@ -190,7 +212,7 @@ img {
 	display: inline-block;
     color: #c1c1c1;
     font-weight: 700;
-    font-size: 3.6rem;
+    font-size: 2.5714rem;
 }
 
 .text_block_third {
@@ -269,7 +291,7 @@ img {
 
 .footer {
     width: 100%;
-    min-height: 100vh;
+    min-height: 950px;
     background-size: cover;
     background-repeat: no-repeat;
 	background-color: #0a0e34;
@@ -282,7 +304,7 @@ img {
 }
 
 .footer_title {
-    font-size: 8rem;
+    font-size: 5.7143rem;
     color: #fff;
 }
 
@@ -633,46 +655,35 @@ img {
 		
 	}
 	
-    .players_box,
-    .players_header {
-        padding-left: 15%;
-        padding-right: 52%;
+    .players_box {
+        padding: 3.6em 0;
     }
-
-    .athlets_block,
-    .athlets_header {
-        padding-left: 52%;
-        padding-right: 10.5%;
-    }
-
+	
     .athlets .big_block,
     .players .big_block {
         margin-top: 100px;
     }
 
-    .middle_block {
-        margin-top: 60.5px;
-        margin-bottom: 20px;
-    }
+	.athlets_block_header, .players_block_header {
+		margin-bottom: 1.8em;
+	}
 
-    .athlets_block_3 .middle_block,
-    .players_box-3 .middle_block {
-        margin-top: 85px;
+    .middle_block {
+       margin-bottom: 0.5em;
     }
 	
     .players_img {
-        left: 50%;
-		top: 10%;
+        top: -11%;
+		right: 6%;
     }
+	
+	.athlets_block {
+		padding: 3.6em 0;
+	}
 
     .text_block {
         font-size: 1.4286rem;
-        padding-bottom: 6.94%;
-    }
-
-    .athlets_block_3 .text_block,
-    .players_box-3 .text_block {
-        padding-bottom: 92px;
+		margin-bottom: 0.5em;
     }
 
     .activity_block {
@@ -732,11 +743,6 @@ img {
     }
 
     .footer_text {
-        font-size: 3rem;
+        font-size: 2.1429rem;
     }
-}
-@media (min-width: 1281px) {
-	html {
-		font-size: 20px;
-	}
 }

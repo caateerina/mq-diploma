@@ -337,7 +337,7 @@ img {
     
     .header_logo_text {
 		width: 100%;
-		font-size: 28px;
+		font-size: 28px; 
 		line-height: 1.2;
 		letter-spacing: 1.1px;  
 	}

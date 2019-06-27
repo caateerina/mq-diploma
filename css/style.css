@@ -633,7 +633,7 @@ img {
 
     .players_img {
         right: 0;
-        bottom: 2%;
+        top: -5%;
     }
 
     .athlets .text_block,

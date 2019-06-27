@@ -607,6 +607,10 @@ img {
         font-size: 65px;
     }
 
+	.activities {
+		margin-top: -60px;
+	}
+	
     .athlets_img {
         top: 95px;
         left: 0;
